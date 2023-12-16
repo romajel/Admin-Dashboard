@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.icon2 {
+  width: 18px;
+  height: 18px;
+}
+
+.chart {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+}
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+}
+.sidebar {
+  grid-column: 1/2;
+  grid-row: 1/6;
+}
+.header {
+  grid-column: 2/6;
+  grid-row: 1/2;
+  background-color: #fae8ff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-content {
+  grid-column: 2/6;
+  grid-row: 2/6;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  background-color: #d8b4fe;
+  padding: 30px;
+}
+.sidebar {
+  background-color: #0d9488;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 40px;
+}
+.nav-1,
+.nav-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.header1,
+.header2 {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  margin: 0;
+}
+.main-content-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.text {
+  background-color: white;
+  border-left: 8px solid #0f766e;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+p,
+h2 {
+  margin: 5px;
+}
+.main-content-right {
+  display: grid;
+  gap: 30px;
+}
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo {
+  width: 65px;
+  height: 55px;
+  border-radius: 50%;
+}
+input {
+  width: 600px;
+  background-color: rgb(169, 165, 165);
+  border-radius: 10px;
+  border: none;
+}
+.left-header,
+.right-header,
+.chartflex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.small-text {
+  font-size: 12px;
+}
+button {
+  margin: 20px;
+  background-color: #0f766e;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  width: 80px;
+}
+span {
+  padding-left: 20px;
+}
+.dash {
+  font-size: 24px;
+  padding-left: 10px;
+}
+.text-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.yogaicon {
+  height: 40px;
+}
+.chartflex {
+  margin: 20px 0 20px 0;
+}
